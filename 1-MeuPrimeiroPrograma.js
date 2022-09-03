@@ -22,3 +22,5 @@ console.log("Divisão da idade 33 / 3 = "+(idade/3))
 console.log("Divisão da idade 33 / 3 = "+(idade*3))
 
 console.log("Teste")
+
+//teste
