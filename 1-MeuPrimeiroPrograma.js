@@ -25,4 +25,6 @@ console.log("Divisão da idade 33 / 3 = "+(idade*3))
 
 console.log("Teste")
 
+console.log("TEste 25/09/2023 as 20:44")
+
 //teste
