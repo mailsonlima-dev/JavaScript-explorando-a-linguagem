@@ -19,3 +19,8 @@ const Nome3 = "Lima"
 
 //Variavel GLOBAL - Cuidado, gera aviso de advertência
 Nome4 = "Oliveira"
+
+//Variavél com aspas simples
+let nome4 = 'Luziene'
+
+console.log('Variável com aspas simples: '+nome4)
