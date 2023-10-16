@@ -28,8 +28,8 @@ console.log('Variável com aspas simples: '+nome4)
 let valor1 = 5;
 let valor2 = 5;
 //mostrando variaveis com aspas simples
-console.log('Valor de soma de '+valor1+' + '+valor2+' = ')+valor1+valor2;
-console.log("Valro de soma de "+valor1+" + "+valor2+" = "+valor1+valor2);
+console.log('Valor de soma de '+valor1+' + '+valor2+' = '+valor1+valor2);
+console.log("Valro de soma de "+valor1+" + "+valor2+" = "+parseInt(valor1+valor2,10));
 
 let soma = valor1 + valor2
 console.log(soma)
