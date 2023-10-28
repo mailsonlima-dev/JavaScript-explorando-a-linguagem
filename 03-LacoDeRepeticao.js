@@ -8,7 +8,7 @@ for(numero = 0; numero < 5; numero++){
 }
 
 //Laço de repetição DO WHILE
-do {
-    var i + = 1;
+do{
+    var i =+ 1;
     console.log(i);
-  } while (i < 5);
+  }while (i < 5);
