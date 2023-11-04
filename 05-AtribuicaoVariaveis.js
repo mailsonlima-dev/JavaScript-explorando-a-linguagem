@@ -17,3 +17,8 @@ console.log(`Meu nome: ${Nome} ${SobreNome}`);
 console.log("Tentando sobrescrever variavel");
 const Nome2 = Nome + SobreNome; //Altere as variaveis entre let e var veja erros dados
 console.log(`Meu nome: ${Nome2}`);
+
+let Idade; //declarando variaveis
+Idade = 35; // atribuindo valor e declarando como como global
+Idade = Idade + 1;
+console.log(`Idade: ${Idade}`);
