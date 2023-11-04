@@ -1,6 +1,6 @@
 console.log('Atribuição de variaveis');
 
-const Nome = "Mailson";
+var Nome = "Mailson";
 const SobreNome = "Lima";
 
 //Formas de imprimir no console log
@@ -9,3 +9,11 @@ console.log('Meu nome: '+ Nome +" "+ SobreNome);
 
 //Outra forma imprimir
 console.log(`Meu nome: ${Nome} ${SobreNome}`);
+
+//const NomeCompleto = Nome + SobreNome;
+//console.log(`Meu nome: ${NomeCompleto}`);
+
+//da erro porque já foi declardo como const
+console.log("Tentando sobrescrever variavel");
+const Nome2 = Nome + SobreNome; //Altere as variaveis entre let e var veja erros dados
+console.log(`Meu nome: ${Nome2}`);
