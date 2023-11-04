@@ -22,10 +22,13 @@ const ListaDeDestinos = new Array(
     `Maranhão`
 );
 
-console.log(`Lista de Destinos com Arry:`);
+console.log(`Lista de Destinos com Array:`);
 console.log(ListaDeDestinos); //imprimindo o Array
 
 //Adicionando itens em um Array após criado
 ListaDeDestinos.push(`Tocantins`);
 
 console.log(ListaDeDestinos); //Imprimindo lista de destinos atualizada
+
+//Tentando sobrescrever o Array lista com número
+ListaDeDestinos = 2; //Não é possível sobrescrever devido mesmo ser tipo const.
