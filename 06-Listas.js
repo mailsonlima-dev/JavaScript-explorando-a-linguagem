@@ -31,4 +31,14 @@ ListaDeDestinos.push(`Tocantins`);
 console.log(ListaDeDestinos); //Imprimindo lista de destinos atualizada
 
 //Tentando sobrescrever o Array lista com número
-ListaDeDestinos = 2; //Não é possível sobrescrever devido mesmo ser tipo const.
+//ListaDeDestinos = 2; //Não é possível sobrescrever devido mesmo ser tipo const.
+
+//Removendo itens de uma lista
+ListaDeDestinos.splice(1,1); //removendo splice(possição, quantidade iten)
+console.log(ListaDeDestinos);
+
+ListaDeDestinos.pop(2); //remover a possição do tem 
+console.log(ListaDeDestinos);
+
+ListaDeDestinos.pop(); //se não passado valor remove ultimo item 
+console.log(ListaDeDestinos);
