@@ -30,6 +30,9 @@ ListaDeDestinos.push(`Tocantins`);
 
 console.log(ListaDeDestinos); //Imprimindo lista de destinos atualizada
 
+console.log("Imprimindo uma lista");
+console.log(ListaDeDestinos[3]); //Imprimir o índice 3 da lista.
+
 //Tentando sobrescrever o Array lista com número
 //ListaDeDestinos = 2; //Não é possível sobrescrever devido mesmo ser tipo const.
 
