@@ -23,6 +23,6 @@ console.log("------------verificando se é número Number.isNaN------------");
 let Numero3 = 4;
 console.log(Number.isNaN(Numero3))
 
-let Numero4 = "true";
+let Numero4 = "quero";
 console.log(Number.isNaN(Numero4));
 
