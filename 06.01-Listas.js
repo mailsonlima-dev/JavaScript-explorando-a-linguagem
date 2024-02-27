@@ -5,7 +5,7 @@
 // console.log(MeuArray1);
 
 
-//Forma 2: Criando array
+/* //Forma 2: Criando array */
 let MeuArray2 = new Array(
     "Verde",
     "Azul",
