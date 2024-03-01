@@ -22,7 +22,7 @@ if (IdadePessoa1 >= 18) {
     console.log("\n Você é maior de idade pode realizar compra");
     Destinos.splice(3, 1);
 }
-else if (EstarAcopanhado) {
+else if (EstarAcopanhado == true) {
 
         console.log("\n Você é menor de idade porem estar acompanado pode comprar");
         Destinos.splice(3, 1);
