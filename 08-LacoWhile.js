@@ -1,5 +1,5 @@
 //Vendas de passagem utilizando
-//Array, IF, else if, brank e do while
+//Array, IF, else if, brank e while
 
 let EstadosDisnponiveis = new Array(
     "Pará",
@@ -12,14 +12,14 @@ let Passagem = "Maranhão";
 let Contador = 0;
 
 
-console.log(EstadosDisnponiveis.length);
+console.log("Mostrar quantidades de itens do Array: ",EstadosDisnponiveis.length);
 
 //Laço varrendo o array e imprimindo os Estados
 while(Contador <= EstadosDisnponiveis.length){
     
     if(Passagem == EstadosDisnponiveis[Contador]){
         console.log("Destino: " + EstadosDisnponiveis[Contador] + " foi reservado para compra");
-        EstadosDisnponiveis.splice(EstadosDisnponiveis[Contador],1);
+        EstadosDisnponiveis.splice(Contador,1);
         break;
     }
     Contador++;
